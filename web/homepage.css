@@ -1,0 +1,143 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    margin: 0;
+}
+
+.container {
+    background-color: #efc4b3;
+    padding: 1rem;
+}
+
+.header {
+    background-color: #99dd1b;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 3rem 0 1rem 0;
+    text-align: center;
+}
+
+.header img {
+    height: 6rem;
+    float: right;
+}
+
+.headerNav {
+    background-color: #9b500f;
+    color: white;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    
+}
+
+.headerNav * {
+    display: inline;
+}
+
+.headerNav li {
+    margin-right: 1rem;
+    margin-left: 0;
+}
+
+.headerNav a {
+    color: white;
+    text-decoration: none;
+}
+
+.headerNav a:hover {
+    text-decoration: none;
+    color: #42240c;
+}
+
+.table{
+    float: right;
+}
+legend{
+    background-color: white;
+    padding: 20;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10em;
+    border-color: #99dd1b;
+        
+}
+fieldset{
+    border: none;
+    border-radius: 10px;
+}
+
+.titleRent{
+    width: 40%;
+    text-align: center;
+    background-color: #f1f1b0;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+#navDropdownMenuContent {
+    display: none;
+    position: absolute;
+    top: 53px;
+    min-width: 10rem;
+    background-color: #ff6600;
+    padding: 1rem;
+}
+
+#navDropdownMenuContent li {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+#navDropdownMenu:hover{
+    background-color: #42240c;
+    padding: 15px;
+}
+/* Show the dropdown menu on hover */
+#navDropdownMenu:hover #navDropdownMenuContent {
+    display: block;
+}
+
+#body {
+    
+    
+    padding: 1rem 4rem 7rem 4rem;
+    background-blend-mode: multiply;
+    
+}
+body{
+    background-image: url('redcar.jpg');
+}
+
+#body p {
+    border: thick double;
+}
+
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+#btnSubmit{
+    padding: 5px 30px 5px 30px;
+    background-color: #e1d6ff;
+    color: rgb(0, 2, 3);
+    border: none;
+    border-radius: 10px;
+}
+
